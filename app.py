@@ -8,7 +8,8 @@ import google.generativeai as genai
 from dotenv import load_dotenv
 
 load_dotenv()
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+# genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+api_key="AIzaSyC8sJ_4sP20KiY-Ai7TmeXXDEhz7PCDgXo"
 model_config = {
   "temperature": 0.2,
   "top_p": 0.99,
